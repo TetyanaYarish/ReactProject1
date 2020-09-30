@@ -1,0 +1,22 @@
+/* TASK 2 - Style the row */
+.body-row {
+    padding: 5px 20px;
+    background-color: #b3b3ff;
+    font-weight: bold;
+    border-radius: 50px;
+     border: 1px solid #0000ff;
+    transition: background-color 300ms;
+    color: blue;
+}
+    .body-row:hover {
+        background-color: #ffff00;
+    }
+
+    .body-row > button {
+        float: right;
+        color:blue;
+        border-radius:1px;
+        font-weight: bold;
+        border-radius: 5px;
+        color: red;
+    }
